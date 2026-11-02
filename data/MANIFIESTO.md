@@ -7,7 +7,7 @@
 | Dataset | Sport Services Dataset |
 | URL exacta de descarga | https://www.kaggle.com/datasets/saurabhshahane/sport-services-dataset |
 | Fecha de descarga | 24 de octubre del 2026 |
-| Licencia o condiciones de uso | Open Data Commons — Database Contents License (DbCL) v1.0 (según el informe del proyecto) |
+| Licencia o condiciones de uso | Creative Commons Attribution 4.0 International (CC BY 4.0) |
 | ¿Se permite redistribuir? | PENDIENTE: verificar las condiciones aplicables antes de redistribuir el archivo. |
 | Filas × columnas (raw) | 14 942 × 47 |
 | MD5 del archivo raw | `7651033e85d057d52b27b1cfa4a67755` |
