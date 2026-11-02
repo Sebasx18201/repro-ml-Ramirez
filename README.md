@@ -81,7 +81,7 @@ Ver `data/MANIFIESTO.md`.
 6. PENDIENTE.
 
 ## Declaración de uso de IA
-Se utilizaron ChatGPT y Codex para interpretar instrucciones, revisar la configuración, adaptar la lectura del CSV con separador `;`, apoyar la documentación y revisar comandos y reproducibilidad. El estudiante ejecutó y verificó personalmente los resultados.
+Se utilizaron ChatGPT y Codex para interpretar instrucciones, revisar la configuración, adaptar la lectura del CSV con separador `;`, apoyar la documentación y revisar comandos y reproducibilidad. 
 
 ## ENTORNO DE EJECUCIÓN
 Sistema operativo: Windows 11 (Windows-11-10.0.26300-SP0)
