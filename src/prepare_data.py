@@ -15,7 +15,7 @@ def md5(path) -> str:
 
 
 def main() -> None:
-    df = pd.read_csv(RAW)                       # la zona raw solo se LEE
+    df = pd.read_csv(RAW, sep=";")             # la zona raw solo se LEE
     n0 = len(df)
     df.columns = df.columns.str.strip()
     df = df.drop_duplicates()
