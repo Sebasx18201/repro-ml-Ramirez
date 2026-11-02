@@ -73,12 +73,12 @@ Ver `data/MANIFIESTO.md`.
 - El conjunto de prueba permanece reservado para evaluación posterior; no se usó para ajustar hiperparámetros.
 
 ## Respuestas
-1. PENDIENTE.
-2. PENDIENTE.
-3. PENDIENTE.
-4. PENDIENTE.
-5. PENDIENTE.
-6. PENDIENTE.
+1. El imputador y el escalador están dentro del Pipeline para evitar fuga de datos. Así, en cada validación cruzada, estos pasos aprenden solo con los datos de entrenamiento y no con los datos que se usan para validar el modelo.
+2. El 20 % de prueba no se usa porque debe reservarse para evaluar el modelo al final. Si se utilizara antes para elegir el modelo, el resultado podría verse mejor de lo que realmente es, lo cual influiría en una elección incorrecta.
+3. La desviación estándar mide cuánto varían los resultados entre las cinco semillas. Sin embargo, no garantiza que el modelo tenga el mismo rendimiento con datos diferentes.
+4. Mi árbol supera al baseline en las cinco semillas. Además, la diferencia entre ambos es mayor que la desviación estándar, por lo que el árbol presenta una mejora consistente y un resultado positivo para este experimento.
+5. El archivo de la zona raw no se modifica porque debe conservarse exactamente como se obtuvo originalmente. Si se cambia, los resultados pueden variar y el proyecto deja de ser reproducible. El MD5 sirve como una huella digital para comprobar que otra persona está usando exactamente el mismo archivo.
+6. PYTHONHASHSEED=0 debe colocarse antes de iniciar Python porque esa configuración se define al momento en que Python arranca. Si se intenta cambiar dentro del programa, ya sería demasiado tarde y no garantizaría la misma reproducibilidad.
 
 ## Declaración de uso de IA
 Se utilizaron ChatGPT y Codex para interpretar instrucciones, revisar la configuración, adaptar la lectura del CSV con separador `;`, apoyar la documentación y revisar comandos y reproducibilidad. 
