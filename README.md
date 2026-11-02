@@ -73,3 +73,16 @@ Quién la hizo (nombre y grupo), enlace al Issue y resultado.
 
 ## Declaración de uso de IA
 Qué herramienta de IA se usó, para qué y qué revisó o ejecutó el autor. Si no se usó, indicarlo.
+
+## ENTORNO DE EJECUCIÓN
+Sistema operativo: Windows 11 (Windows-11-10.0.26300-SP0)
+
+Python: 3.14.4
+
+NumPy: 2.5.4
+
+pandas: 3.1.0
+
+scikit-learn: 1.9.1
+
+MLflow: 3.17.2
