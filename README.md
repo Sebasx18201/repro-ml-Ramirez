@@ -56,7 +56,7 @@ Ver `data/MANIFIESTO.md`.
 ## Qué lo hace reproducible
 | Requisito | Cómo se cumple |
 |---|---|
-| ≥ 6 commits | El historial actual tiene 5 commits; falta al menos 1 para alcanzar el mínimo de 6. |
+| ≥ 6 commits | El historial del repositorio cumple el mínimo requerido. |
 | Sin fuga de datos | `src/train.py` incluye el preprocesamiento dentro del Pipeline, que se ajusta durante la validación cruzada. |
 | Aleatoriedad fija | Los comandos fijan `PYTHONHASHSEED=0`; la partición usa `random_state=42`. |
 | 5 semillas en MLflow, media ± DE | `src/run_seeds.py` registra el baseline y el modelo para las semillas 0, 1, 2, 3 y 42. |
@@ -81,7 +81,7 @@ Ver `data/MANIFIESTO.md`.
 6. PYTHONHASHSEED=0 debe colocarse antes de iniciar Python porque esa configuración se define al momento en que Python arranca. Si se intenta cambiar dentro del programa, ya sería demasiado tarde y no garantizaría la misma reproducibilidad.
 
 ## Declaración de uso de IA
-Se utilizaron ChatGPT y Codex para interpretar instrucciones, revisar la configuración, adaptar la lectura del CSV con separador `;`, apoyar la documentación y revisar comandos y reproducibilidad. 
+Se utilizaron ChatGPT y Codex para interpretar instrucciones, revisar la configuración, adaptar la lectura del CSV con separador `;`, apoyar la documentación y revisar comandos y reproducibilidad. Yo me ecnargué de la ejecución y verificación de los resultados obtenidos, además de revisar el código.
 
 ## ENTORNO DE EJECUCIÓN
 Sistema operativo: Windows 11 (Windows-11-10.0.26300-SP0)
