@@ -65,7 +65,23 @@ Ver `data/MANIFIESTO.md`.
 | Prueba reservada | El 20 % de prueba no se usa en este entregable; la validación cruzada se hace sobre el 80 % de entrenamiento. |
 
 ## Prueba del extraño
-**PENDIENTE.** Aún no se ha realizado. Completar con el nombre y grupo del compañero, el enlace al Issue y el resultado.
+- Responsable: Stiven
+- Grupo: Estudiante de otra sección de Machine Learning I
+- Issue: [\[Enlace al Issue de GitHub\]](https://github.com/Sebasx18201/repro-ml-Ramirez/issues/1#issue-6196522132)
+- Resultado: Prueba exitosa.
+
+El compañero logró reproducir los resultados del proyecto
+utilizando un entorno virtual nuevo.
+
+Se ejecutaron correctamente las 10 corridas de MLflow,
+obteniendo los mismos resultados:
+
+- Baseline: 0.8010 ± 0.0000
+- Árbol de decisión: 0.8511 ± 0.0018
+
+Inicialmente se presentó un problema por la falta de Git,
+pero fue solucionado instalándolo y clonando nuevamente
+el repositorio.
 
 ## Limitaciones
 - El dataset está desbalanceado; los resultados corresponden a este conjunto y no garantizan el mismo rendimiento en otros gimnasios o poblaciones.
